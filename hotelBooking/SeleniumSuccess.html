@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://change-this-to-the-site-you-are-testing/" />
+<title>SeleniumSuccess</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">SeleniumSuccess</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>file:///D:/Softwares/hotelBooking/login.html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//*[@id='mainCnt']/div[1]/div[1]/h1</td>
+	<td>Hotel Booking Application</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=userName</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//*[@id='userErrMsg']</td>
+	<td>* Please enter userName.</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=userName</td>
+	<td>capg</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=userPwd</td>
+	<td>capg1234</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyAlertPresent</td>
+	<td>Invalid login! Please try again!</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=userName</td>
+	<td>capgemini</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=userPwd</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//*[@id='pwdErrMsg']</td>
+	<td>* Please enter password.</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=userName</td>
+	<td>capgemini</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=userPwd</td>
+	<td>capg1234</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtFirstName</td>
+	<td>Rishabh</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtLastName</td>
+	<td>Sinha</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtEmail</td>
+	<td>sinharishabh140796@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtPhone</td>
+	<td>9910309269</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=city</td>
+	<td>label=Pune</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=state</td>
+	<td>label=Maharashtra</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=persons</td>
+	<td>label=4</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtCardholderName</td>
+	<td>Rishabh</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtDebit</td>
+	<td>4356270081931170</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtCvv</td>
+	<td>542</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtMonth</td>
+	<td>12</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtYear</td>
+	<td>23</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=btnPayment</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
